@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#intro {
+  font-family: 'Fira Code', monospace;
+  font-size: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 24px;
+  border-radius: 10px;
+  margin: 24px;
+}
+
+#venmo_logo {
+  color: black;
+  max-width: 500px;
+  margin: 12px 0px;
+}
+
+#venmo_qr_code {
+  max-width: 500px;
+}
